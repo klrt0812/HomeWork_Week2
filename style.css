@@ -1,0 +1,329 @@
+    *{
+        padding: 0; 
+        margin:0;
+        box-sizing: border-box;
+    }
+    .col1{ 
+        width:6.333333333% ; 
+        margin: 0 1% ; 
+        float:left;
+    }
+    .col2{ 
+        widows: 14.66666667% ; 
+        margin: 0 1% ; 
+        float:left;
+    }
+    .col3{ 
+        width: 23%; 
+        margin: 0 1% ; 
+        float:left ;
+    }
+    .col4{ 
+        width: 31.33333333%; 
+        margin: 0 1% ; 
+        float:left ;
+    }
+    .col5{ 
+        width: 39.66666667%; 
+        margin: 0 1% ; 
+        float:left ;
+    }
+    .col6{ 
+        width:48%; 
+        margin: 0 1% ; 
+        float:left ;
+    }
+    .col7{ 
+        width: 56.33333333%; 
+        margin: 0 1% ; 
+        float:left;
+    }
+    .col8{ 
+        width: 64.66666667%; 
+        margin: 0 1% ; 
+        float:left;
+    }.col9{ 
+        width: 73%; 
+        margin: 0 1% ; 
+        float:left ;
+    }.col10{ 
+        width: 81.33333333%; 
+        margin: 0 1% ; 
+        float:left ;
+    }.col11{ 
+        width:89.66666667% ; 
+        margin: 0 1% ; 
+        float:left ;
+    }.col12{ 
+        width: 98%; 
+        margin: 0 1% ; 
+        float:left ;
+    }
+    .container {
+        width: 85% ; 
+        margin :0 auto ; 
+        align-items: center;
+    }
+    a{
+        color:black ;
+        text-decoration: none;
+    }
+    li{
+        list-style: none;
+    }
+    .infor {
+        width :100% ; 
+        height: 32px ; 
+        background-color: #1A1A1A;
+        font-size: 12px;
+        line-height: 15px;
+        color: #F1F1F1; 
+        display: flex;
+        align-items: center;
+    }
+    #review {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    /*Top_menu*/
+    .top_menu {
+        width: 100%;
+        height: 120px;
+        background:#FBFBFB;
+        mix-blend-mode: screen;
+        backdrop-filter: blur(84px);
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    #logo {
+        width: 100px; 
+        height: 100px;
+    }
+    #sex {
+        margin : 35px 0px  ;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color:  #1A1A1A;
+    }
+    #sex a {
+
+        padding :10px;
+    }
+    #sep_row {
+        border: 1px solid #1A1A1A;
+        transform: rotate(90deg);
+    }
+    /*form*/
+    #searchmain{
+        margin : 28px auto  ;
+        text-align: end;
+    }
+    #searchmain input { 
+        background: #FFFFFF;
+        outline: none;
+        width:300px;
+        height: 38px;
+        border: 1px solid #9A9A9A;
+    }
+    #find {
+        background: #1A1A1A;
+        height: 38px;
+        width: 100px;
+        font-size: 14px;
+        line-height: 17px;
+        color:white;
+        margin:auto -10px;
+    }
+
+    /*log*/
+    #log {
+        margin: 25px 0px;
+        float:right;
+    }
+    #log a {
+        font-size: 10px;
+        line-height: 12px;
+        color: #1A1A1A;
+        
+
+
+    }
+    #log span {
+        display: flex;
+        font-size: 14px;
+        line-height: 17px;
+        justify-content: center;
+        
+    }
+    #fa {
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #1A1A1A;
+        margin :35px 0 ;
+        float:right ;
+        
+    }
+    #cart {
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #1A1A1A;
+        margin :35px 0 ;
+        float:right ;
+        
+    }
+    /*menu*/
+    .list_menu{
+        
+        width: 100%;
+        height: 50px;
+        background: white;
+        backdrop-filter: blur(84px);
+        display: flex;
+        align-items: center ; 
+    }
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        width: 65%;
+        margin: 0 auto;
+    }
+
+    #sep {
+        border: 1px solid #F1F1F1;
+        transform: rotate(180deg);
+    }
+    /*banner*/
+    .banner_btn{
+        background: #a9d9d4 ;
+        width: 100%;
+        height: 71vh;
+        display: flex; 
+        align-items: center;
+        position: absolute;
+    }
+    .banner_btn:focus {
+        outline: none;
+    }
+    .banner_item {
+        background: #466e73; 
+        width: 50% ;
+        height: 350px;
+        float:right ; 
+        position: relative;
+        right: 100px;
+    }
+    .banner_item-p {
+    position: absolute;
+        width: 400px; 
+        height: 450px;
+    display: flex;
+        top:20px;
+        right:220px;
+        
+    }
+    .banner_test {
+        display: flex;
+        justify-content: space-around;
+        position: absolute;
+    }
+    #text1{
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #1A1A1A;
+        display: flex;
+        justify-content: flex-start;
+        margin : 20px 5px;
+    }
+    #sep_text {
+
+
+    }
+    #title_1 , #title_2{
+    font-weight: 600;
+    font-size: 41px;
+    line-height: 72px;
+    color: #1A1A1A;
+
+    }
+    #title_1 {
+        float : left ; 
+        clear: both;
+    }
+    #title_2 {
+    float: right;
+        margin-left : 100px;   
+        
+    }
+    #cover {
+        display: flex;
+        padding: 10px 32px;
+        background: #1A1A1A;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-top : 230px;
+        cursor: pointer;
+    }
+    #video {
+        position: absolute; 
+        right :310px;
+        top:280px;
+
+    }
+    #change1 ,#change2 , #change3 {
+        position: absolute;
+        border: 2px solid #B3C4D7;
+        box-sizing: border-box;
+        transform: rotate(180deg);
+        display: flex;
+        width: 30px;
+        margin-top : 60px; 
+        cursor: pointer;
+    }
+    #change1 {
+        border-color: #FFFFFF;
+    }
+
+    #change2 {
+        margin-left : 40px;
+    }
+    #change3 {
+        margin-left : 80px;
+    }
+    #change2:hover , #change3:hover{
+        border-color: #FFFFFF;
+    }
+    #cover:hover {
+        -webkit-box-shadow: inset -1px 3px 16px 12px rgba(218, 19, 19, 0.31); 
+        box-shadow: inset -1px 3px 16px 12px rgba(202, 12, 12, 0.31);
+    }
+
+    /*content*/ 
+    /*brands*/
+    .brands {
+        position: absolute;
+        background-color: white ;
+        width: 100%; 
+        height: 147px;
+        top:100vh ;
+    }
+
+    .brand_lg {
+        display: flex;
+        justify-content: space-around;
+        padding:39px 0 ;
+    }
+
+    #adidas , #vans , #nike {
+        
+        width: 100px;
+        
+        
+    }
